@@ -29,7 +29,7 @@ head, body {
 /* Section 1 */
 .section1 {
     height: 38rem;
-    background-image: url(img/abstractBW20.png);
+    background-image: url(imgs/abstractBW20.png);
 }
 .section1-text {
     color: #222;
