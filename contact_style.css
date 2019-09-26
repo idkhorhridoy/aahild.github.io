@@ -121,7 +121,7 @@ head, body {
     /*Section 1 */
     .section1 {
         height: 12rem;
-        background-image: url(img/abstractBW20.png);
+        background-image: url(imgs/abstractBW20.png);
     }
     .section1-text h1 {
         font-size: 2.5rem;
