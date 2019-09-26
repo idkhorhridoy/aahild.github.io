@@ -1,0 +1,293 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+head, body {
+    height: 100%;
+    width: 100%;
+    color: #222;
+}
+
+/* Navigation bar */
+.navbar {
+    padding: 0rem;
+}
+.navbar-nav {
+    padding-right: 2rem;
+}
+.nav-link {
+    font-size: 1.1rem;
+}
+#projects-button {
+    padding-right: 3rem;
+}
+#portfolio-button {
+    padding-right: 12rem;
+}
+
+/* Section 1 */
+.section1 {
+    height: 38rem;
+    background-image: url(img/abstractBW20.png);
+}
+.section1-text {
+    color: #222;
+    text-align: center;
+}
+.section1-text h4 {
+    padding-top: 2rem;
+    font-size: 2rem;
+    text-decoration: underline;
+}
+.form-text {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.submit-style {
+    color: azure;
+    border-radius: 5px;
+    border: 0;
+    width: 80px;
+    background: #222;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #222 1%, #222 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(1%, #222), color-stop(100%, #222));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #222 1%, #222 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #222 1%, #222 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #222 1%, #222 100%);
+    /* IE10+ */
+    background: linear-gradient(to bottom, #222 1%, #222 100%);
+    /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#222', endColorstr='#222', GradientType=0);
+    /* IE6-9 */
+}
+
+/* Social Media */
+.connect {
+    background-color: #222;
+    height: 10rem;
+}
+.connect h5 {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    color: azure;
+    text-decoration: underline;
+    font-style: italic;
+    font-size: 1rem;
+}
+.social {
+    padding-bottom: 1.5rem;
+}
+.social a {
+    font-size: 2.5rem;
+    padding: 1rem;
+}
+.fa-facebook-square {
+    color: #3b5998;
+}
+.fa-github-square {
+    color: azure;
+}
+.fa-instagram {
+    color: #e95950;
+}
+.fa-linkedin {
+    color: #007bb5;
+}
+.fa-snapchat-square {
+    color: #fffc00;
+}
+
+
+/* General CSS */
+.black-border {
+    border: 3px solid black;
+    border-radius: 5px;
+    margin-bottom: 0.2rem;
+}
+.black-bottom {
+    border-bottom: 0.075rem solid black;
+}
+
+
+/* Media Queries */
+/* Tablet */
+@media screen and (min-width: 649px) {
+    /*Section 1 */
+    .section1 {
+        height: 12rem;
+        background-image: url(img/abstractBW20.png);
+    }
+    .section1-text h1 {
+        font-size: 2.5rem;
+    }
+    .section1-text p {
+        font-size: 1.25rem;
+    }
+    
+    /* Social Media */
+    .connect {
+        height: 12rem;
+    }
+    .connect h5 {
+        font-size: 1.25rem;
+    }
+    .social a {
+        font-size: 3rem;
+        padding: 2rem;
+    }
+}
+
+/* Laptop */
+@media (min-width: 768px) {
+    /* Nav Bar */
+    #projects-button {
+        padding-right: 4rem;
+    }
+    #portfolio-button {
+        padding-right: 25rem;
+    }
+   
+    /* Section 1 */
+    .section1 {
+        padding-bottom: 10%;
+        height: 42rem;
+    }
+    .section1-text h4 {
+        font-size: 2.5rem;
+    }
+    .section1-text p {
+        font-size: 2rem;
+        margin-bottom: -1px;
+    }
+    input {
+        width:20%;
+    }
+    textarea {
+        width: 60%;
+    }
+    .submit-style {
+        font-size: 1.25rem;
+        width: 8rem;
+        height: 2rem;
+    }
+    /* Social Media */
+    .connect {
+        height: 14rem;
+    }
+    .connect h5 {
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+        color: azure;
+        text-decoration: underline;
+        font-style: italic;
+        font-size: 1.75rem;
+    }
+    .social {
+        padding-bottom: 1.5rem;
+    }
+    .social a {
+        font-size: 4rem;
+        padding: 2.5rem;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#imgHolder {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+}
+
+/*Initial image*/
+#imgHolder::before {
+    content:"";
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    background-image:url(img/nexus_boot_edited.gif);
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+    z-index:10;
+}
+#imgHolder:hover::before {
+    opacity:0;
+}
+#imgHolder::after {
+    content:"";
+    background: url(img/pic31.jpg);
+    opacity: 1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+}

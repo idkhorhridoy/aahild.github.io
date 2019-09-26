@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       
+        <link rel="stylesheet" href="contact_style.css">
+        
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" 
+        integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+
+        <!-- JQuery -->
+        <script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+
+        <!-- Popper -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+        
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+        <script src="https://use.fontawesome.com/releases/v5.10.2/js/all.js" data-auto-replace-svg="nest"></script>
+    </head>
+
+    <body>
+        <!--Navigation Bar-->
+        <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top black-bottom">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                data-target="#navbarResponsive">
+                    <span class="navbar-toggler-icon"></span>
+                </button> 
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a id="projects-button" class="nav-link" href="projects.html">Projects</a>
+                        </li>
+                        <li class="nav-item active">
+                                <a id="portfolio-button" class="nav-link" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item active">
+                                <a id="contact-button" class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Section 1 -->
+        <div class="section1">
+            <div class="jumbotron-fluid">
+                <div class="container-fluid section1-text">
+                    <h4 class="display-6">Contact Me!</h4>
+                    <div class="contact-info">
+                        <br>
+                        <div class="form-text">
+                            <form action="html_form_send.php" method="POST">
+                            
+                                Name:<br>
+                                <input type="text" name="name" class="black-border">
+                                <br><br>
+            
+                                Email Address:<br>
+                                <input type="text" name="email" class="black-border">
+                                <br><br>
+            
+                                Subject:<br>
+                                <input type="text" name="subject" class="black-border">
+                                <br><br>
+                                
+                                Message:<br> 
+                                <textarea placeholder="" name="message" class="message_box black-border" rows="5" cols="35"></textarea>
+                                </br>
+                                
+                                <p><input type="submit" value="Send" class="submit-style"></p>
+                            
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Connect -->
+        <div class="connect">
+            <div class="container-fluid">
+                <div class="row text-center">
+                    <div class="col-12">
+                        <h5>Stay Connected</h5>
+                    </div>
+                    <div class="col-12 social">
+                        <a href="https://www.facebook.com/aahildawoodani" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                        <a href="https://github.com/AahilD" target="_blank"><i class="fab fa-github-square"></i></a>
+                        <a href="https://www.instagram.com/its_aahil" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/aahildawoodani/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.snapchat.com/add/its_aahil" target="_blank"><i class="fab fa-snapchat-square"></i></a>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+    </body>    
+
+</html>
