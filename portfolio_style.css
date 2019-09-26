@@ -29,7 +29,7 @@ head, body {
 
 /* Main Section */
 .main-section {
-    background-image: url(img/abstractBW20.png);
+    background-image: url(imgs/abstractBW20.png);
     height: 50rem;
 }
 .picture-overlay {
