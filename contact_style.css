@@ -10,6 +10,9 @@ head, body {
 }
 
 /* Navigation bar */
+.navbar-collapse.collapse.in { 
+    display: block!important; 
+}
 .navbar {
     padding: 0rem;
 }

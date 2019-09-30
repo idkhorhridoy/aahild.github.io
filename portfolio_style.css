@@ -11,6 +11,9 @@ head, body {
 }
 
 /* Navigation bar */
+.navbar-collapse.collapse.in { 
+    display: block!important; 
+}
 .navbar {
     padding: 0rem;
 }
@@ -29,7 +32,8 @@ head, body {
 
 /* Main Section */
 .main-section {
-    background-image: url(imgs/abstractBW20.png);
+    background-image: url(imgs/abstractBW20rs.png);
+    background-repeat: no-repeat;
     height: 50rem;
 }
 .picture-overlay {
@@ -141,7 +145,6 @@ a {
     margin-left: auto;
     margin-right: auto;
 }
-
 
 /* Media Queries */
 /* Tablet */

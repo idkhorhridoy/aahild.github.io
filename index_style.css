@@ -10,8 +10,8 @@ head, body {
 }
 
 /* Navigation bar */
-.navbar-collapse.collapse:not(.show) {
-    display: none !important;
+.navbar-collapse.collapse.in { 
+    display: block!important; 
 }
 .navbar {
     padding: 0rem;
@@ -27,9 +27,6 @@ head, body {
 }
 #portfolio-button {
     padding-right: 8rem;
-}
-#contact-button {
-    margin-left: -1rem;
 }
 
 /* Main Image */
