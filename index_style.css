@@ -10,11 +10,14 @@ head, body {
 }
 
 /* Navigation bar */
+.navbar-collapse.collapse:not(.show) {
+    display: none !important;
+}
 .navbar {
     padding: 0rem;
 }
 .navbar-nav {
-    padding-right: 2rem;
+    padding-right: 0rem;
 }
 .nav-link {
     font-size: 1.1rem;
@@ -23,7 +26,10 @@ head, body {
     padding-right: 3rem;
 }
 #portfolio-button {
-    padding-right: 12rem;
+    padding-right: 8rem;
+}
+#contact-button {
+    margin-left: -1rem;
 }
 
 /* Main Image */
@@ -41,10 +47,10 @@ head, body {
     color: azure;
 }
 .main-image-text h1 {
-    font-size: 5rem;
+    font-size: 6rem;
 }
 .main-image-text h3 {
-    font-size: 1.5rem;
+    font-size: 2.25rem;
     font-style: italic;
 }
 
@@ -159,15 +165,15 @@ head, body {
 @media screen and (max-width: 650px) {
     /* Main Image */
     .main-image-text h1 {
-        font-size: 3.25rem;
+        font-size: 3.5rem;
     }
     .main-image-text h3 {
-        font-size: 1.25rem;
+        font-size: 1.5rem;
     }
     /*Section 1 */
     .section1 {
         height: 16rem;
-        background-image: url(img/abstractBW20.png);
+        background-image: url(imgs/abstractBW20.png);
     }
     .section1-text h1 {
         font-size: 2.5rem;
