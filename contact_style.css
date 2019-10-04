@@ -120,7 +120,7 @@ head, body {
 
 /* Media Queries */
 /* Tablet */
-@media screen and (min-width: 649px) {
+@media screen and (min-width: 640px) {
     /*Section 1 */
     .section1 {
         height: 12rem;
@@ -145,7 +145,6 @@ head, body {
         padding: 2rem;
     }
 }
-
 /* Laptop */
 @media (min-width: 768px) {
     /* Nav Bar */
@@ -197,100 +196,64 @@ head, body {
     .social a {
         font-size: 4rem;
         padding: 2.5rem;  
+    }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#imgHolder {
-    width: 100%;
-    height: 100%;
-    display: block;
-    position: relative;
+/* Large Screen */
+@media (min-width: 1300px) {
+    /* Nav Bar */
+    #projects-button {
+        padding-right: 4rem;
+    }
+    #portfolio-button {
+        padding-right: 25rem;
+    }
+   
+    /* Section 1 */
+    .section1 {
+        padding-bottom: 10%;
+        height: 42rem;
+    }
+    .section1-text h4 {
+        font-size: 2.5rem;
+    }
+    .section1-text p {
+        font-size: 2rem;
+        margin-bottom: -1px;
+    }
+    input {
+        width:20%;
+    }
+    textarea {
+        width: 60%;
+    }
+    .submit-style {
+        font-size: 1.25rem;
+        width: 8rem;
+        height: 2rem;
+    }
+    /* Social Media */
+    .connect {
+        height: 14rem;
+    }
+    .connect h5 {
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+        color: azure;
+        text-decoration: underline;
+        font-style: italic;
+        font-size: 1.75rem;
+    }
+    .social {
+        padding-bottom: 1.5rem;
+    }
+    .social a {
+        font-size: 4rem;
+        padding: 2.5rem;  
+    }
 }
-
-/*Initial image*/
-#imgHolder::before {
-    content:"";
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    background-image:url(img/nexus_boot_edited.gif);
-    -webkit-transition: opacity 1s ease-in-out;
-    -moz-transition: opacity 1s ease-in-out;
-    -o-transition: opacity 1s ease-in-out;
-    transition: opacity 1s ease-in-out;
-    z-index:10;
-}
-#imgHolder:hover::before {
-    opacity:0;
-}
-#imgHolder::after {
-    content:"";
-    background: url(img/pic31.jpg);
-    opacity: 1;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index: -1;
-}
+/* Small Phone */
+@media screen and (max-width: 410px) {
+    .social a {
+        font-size: 2rem;
+    }
 }

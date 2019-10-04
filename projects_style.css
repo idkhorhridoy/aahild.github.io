@@ -159,7 +159,7 @@ a {
 
 /* Media Queries */
 /* Tablet */
-@media screen and (min-width:600px) {
+@media screen and (min-width:640px) {
     /* Main Section */
     .main-section {
         height: 40rem;
@@ -210,9 +210,8 @@ a {
         margin-right: auto;
     }
 }
-
 /* Laptop */
-@media (min-width: 769px) {
+@media (min-width: 768px) {
     /* Nav Bar */
     #projects-button {
         padding-right: 4rem;
@@ -287,4 +286,89 @@ a {
         padding-top: 3rem;
     }
     
+}
+/* Large Screen */
+@media (min-width: 1300px) {
+    /* Nav Bar */
+    #projects-button {
+        padding-right: 4rem;
+    }
+    #portfolio-button {
+        padding-right: 22rem;
+    }
+
+     /* Main Section */
+    .main-section {
+        height: 38rem;
+    }
+    .picture-overlay {
+        padding-top: 2rem;
+    }
+    #project_des {
+        font-size: 1.25rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        float:left;
+        width: 45%;
+        position: relative;
+    }
+    .p1 h4 {
+        font-size: 2.5rem;
+    }
+    .p1 img {
+        width: 35%;
+        height: 16rem;
+    }
+    .p2 h4 {
+        font-size: 2.5rem;
+    }
+    .p2 video {
+        width: 40%;
+    }
+    .p3 h4 {
+        font-size: 2.5rem;
+    }
+    .p3 video {
+        width: 40%;
+    }
+    
+    /* Social Media */
+    .connect {
+        height: 14rem;
+    }
+    .connect h5 {
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+        font-size: 1.75rem;
+    }
+    .social {
+        padding-bottom: 1.5rem;
+    }
+    .social a {
+        font-size: 4rem;
+        padding: 2.5rem;  
+    }
+    
+
+    /*General CSS*/
+    .center-img {
+        display: inherit;
+        margin-left: 55%;
+    }
+    #picture_source {
+        text-align: right;
+        margin-right: 10%;
+    }
+    .content-padding {
+        padding-top: 3rem;
+    }
+}
+/* Small Phone */
+@media screen and (max-width: 410px) {
+    #project_des {
+        font-size: 1.2rem;
+    }
+    .social a {
+        font-size: 2rem;
+    }
 }

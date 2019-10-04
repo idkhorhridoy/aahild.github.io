@@ -148,7 +148,7 @@ a {
 
 /* Media Queries */
 /* Tablet */
-@media screen and (min-width:600px) {
+@media screen and (min-width:640px) {
     /* Main Section */
     .main-section {
         height: 70rem;
@@ -183,9 +183,8 @@ a {
         padding: 2.5rem;  
     }
 }
-
 /* Laptop */
-@media (min-width: 769px) {
+@media (min-width: 768px) {
     /* Nav Bar */
     #projects-button {
         padding-right: 4rem;
@@ -242,4 +241,75 @@ a {
         padding: 2.5rem;  
     }
     
+}
+/* Large Screen */
+@media (min-width: 1300px) {
+    /* Nav Bar */
+    #projects-button {
+        padding-right: 4rem;
+    }
+    #portfolio-button {
+        padding-right: 22rem;
+    }
+
+    /* Main Section */
+    .main-section {
+        height: 97rem;
+    }
+    .picture-overlay {
+        padding-top: 2rem;
+    }
+    .p1 h4 {
+        font-size: 2.5rem;
+    }
+    .p1 div {
+        padding-left: 15%;
+    }
+    .p1 img {
+        width: 40%;
+        height: 18rem;
+    }
+    .p2 h4 {
+        font-size: 2.5rem;
+    }
+    .p2 video {
+        height: 35rem;
+    }
+    .p2 h6 {
+        padding-top: 3rem;
+        font-size: 1.5rem;
+    }
+
+    /* Social Media */
+    .connect {
+        height: 14rem;
+    }
+    .connect h5 {
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+        color: azure;
+        text-decoration: underline;
+        font-style: italic;
+        font-size: 1.75rem;
+    }
+    .social {
+        padding-bottom: 1.5rem;
+    }
+    .social a {
+        font-size: 4rem;
+        padding: 2.5rem;  
+    }
+}
+/* Small Phone */
+@media screen and (max-width: 410px) {
+    .main-section {
+        height: 46rem;
+    }
+    .p1 img {
+        width: 45%;
+        height: 8rem;
+    }
+    .social a {
+        font-size: 2rem;
+    }
 }

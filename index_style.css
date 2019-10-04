@@ -159,7 +159,7 @@ head, body {
 
 /* Media Queries */
 /* Phone */
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 640px) {
     /* Main Image */
     .main-image-text h1 {
         font-size: 3.5rem;
@@ -217,7 +217,34 @@ head, body {
         padding: 1rem;
     }
 }
-
+/* Small Phone */
+@media screen and (max-width: 410px) {
+    /* Main Image */
+    .main-image-text h1 {
+        font-size: 3rem;
+    }
+    /* Section 3 */
+    .section3 {
+        height: 18rem;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    .section3-imgs img {
+        width: 32%;
+        height: 5rem;
+    }
+    /* Social Media */
+    .connect {
+        height: 10rem;
+    }
+    .connect h5 {
+        font-size: 1rem;
+    }
+    .social a {
+        font-size: 2rem;
+        padding: 1rem;
+    }
+}
 /* Laptop */
 @media (min-width: 768px) {
     /* Nav Bar */
@@ -300,65 +327,94 @@ head, body {
     .social a {
         font-size: 4rem;
         padding: 2.5rem;  
+    }
+}
+/* Large Screen */
+@media (min-width: 1300px) {
+    /* Nav Bar */
+    #projects-button {
+        padding-right: 4rem;
+    }
+    #portfolio-button {
+        padding-right: 25rem;
+    }
+    /* Main Image */
+    .main-image-text {
+        top: 10%;
+        left: 7%;
+    }
+    .main-image-text h1 {
+        font-size: 8rem;
+    }
+    .main-image-text h3 {
+        font-size: 2.5rem;
+    }
+    /* Section 1 */
+    .section1 {
+        padding-top: 2%;
+        padding-bottom: 10%;
+        height: 20rem;
+    }
+    .section1-text h1 {
+        font-size: 4.5rem;
+    }
+    .section1-text p {
+        font-size: 2rem;
+        margin-bottom: -1px;
+    }
+    /* Section 2 */
+    .section2 {
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    .section2-text h2 {
+        padding-bottom: 1rem;
+        font-size: 3.5rem;
+    }
+    .section2-text p {
+        font-size: 1.5rem;
+    }
+    /* Section 3 */
+    .section3 {
+        padding-top: 5%;
+        padding-bottom: 5%;
+        height: 33rem;
+    }
+    .section3-text h2 {
+        padding-bottom: 1rem;
+        font-size: 3.5rem;
+    }
+    .section3-text p {
+        font-size: 1.5rem;
+    }
+    .section3-imgs img {
+        margin-left: 0rem;
+        padding-left: 2rem;
+        width: 32%;
+        height: 17rem;
+    }
+    /* Social Media */
+    .connect {
+        height: 14rem;
+    }
+    .connect h5 {
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+        color: azure;
+        text-decoration: underline;
+        font-style: italic;
+        font-size: 1.75rem;
+    }
+    .social {
+        padding-bottom: 1.5rem;
+    }
+    .social a {
+        font-size: 4rem;
+        padding: 2.5rem;  
+    }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*
 
 #imgHolder {
     width: 100%;
@@ -367,7 +423,7 @@ head, body {
     position: relative;
 }
 
-/*Initial image*/
+
 #imgHolder::before {
     content:"";
     top: 0;
@@ -397,3 +453,4 @@ head, body {
     z-index: -1;
 }
 }
+*/
