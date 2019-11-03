@@ -135,14 +135,19 @@ head, body {
     
     /* Social Media */
     .connect {
-        height: 12rem;
+        height: 16rem;
     }
     .connect h5 {
-        font-size: 1.25rem;
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+        font-size: 1.75rem;
+    }
+    .social {
+        padding-bottom: 1.5rem;
     }
     .social a {
-        font-size: 3rem;
-        padding: 2rem;
+        font-size: 3.5rem;
+        padding: 2rem;  
     }
 }
 /* Laptop */
@@ -180,22 +185,19 @@ head, body {
     }
     /* Social Media */
     .connect {
-        height: 14rem;
+        height: 16rem;
     }
     .connect h5 {
-        padding-top: 2rem;
+        padding-top: 2.5rem;
         padding-bottom: 1rem;
-        color: azure;
-        text-decoration: underline;
-        font-style: italic;
-        font-size: 1.75rem;
+        font-size: 2rem;
     }
     .social {
         padding-bottom: 1.5rem;
     }
     .social a {
         font-size: 4rem;
-        padding: 2.5rem;  
+        padding: 2rem;  
     }
 }
 /* Large Screen */
@@ -205,7 +207,7 @@ head, body {
         padding-right: 4rem;
     }
     #portfolio-button {
-        padding-right: 25rem;
+        padding-right: 45rem;
     }
    
     /* Section 1 */
@@ -232,23 +234,11 @@ head, body {
         height: 2rem;
     }
     /* Social Media */
-    .connect {
-        height: 14rem;
-    }
     .connect h5 {
-        padding-top: 2rem;
-        padding-bottom: 1rem;
-        color: azure;
-        text-decoration: underline;
-        font-style: italic;
-        font-size: 1.75rem;
-    }
-    .social {
-        padding-bottom: 1.5rem;
+        font-size: 2.5rem;
     }
     .social a {
-        font-size: 4rem;
-        padding: 2.5rem;  
+        font-size: 4.5rem;
     }
 }
 /* Small Phone */

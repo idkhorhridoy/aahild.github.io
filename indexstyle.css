@@ -1,0 +1,411 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+head, body {
+    height: 100%;
+    width: 100%;
+    color: #222;
+}
+
+/* Navigation bar */
+.navbar-collapse.collapse.in { 
+    display: block!important; 
+}
+.navbar {
+    padding: 0rem;
+}
+.navbar-nav {
+    padding-right: 2rem;
+}
+.nav-link {
+    font-size: 1.1rem;
+}
+#projects-button {
+    padding-right: 3rem;
+}
+#portfolio-button {
+    padding-right: 12rem;
+}
+
+/* Main Image */
+.main-image-container {
+    background-image: url(imgs/crop_mt_rimwallrs.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 49rem;
+    position: relative;
+}
+.main-image-text {
+    text-align: center-left;
+    top: 10%;
+    left: 2%;
+    right: 0%;
+    position: relative;
+    color: azure;
+    width: 95%;
+    height: 30rem;
+}
+.main-image-text h1 {
+    font-size: 4.5rem;
+    padding-bottom: 10%;
+    font-weight: 400;
+    text-shadow: 0.5px 0 0 #000, 0 -0.5px 0 #000, 0 0.5px 0 #000, -0.5px 0 0 #000;
+}
+.main-image-text h3 {
+    font-size: 1.75rem;
+    font-style: italic;
+    text-shadow: 0.5px 0 0 #000, 0 -0.5px 0 #000, 0 0.5px 0 #000, -0.5px 0 0 #000;
+}
+
+/* Section 1 */
+.section1 {
+    padding-top: 5%;
+    padding-bottom: 10%;
+    height: 32rem;
+    background-image: url(imgs/abstractBW20.png);
+    background-repeat: no-repeat;
+}
+.section1-text {
+    color: #222;
+    text-align: center;
+}
+.section1-text h1 {
+    font-size: 2.5rem;
+    text-decoration: underline;
+    font-style: italic;
+}
+.section1-text p {
+    font-size: 1.25rem;
+    margin-bottom: -1px;
+}
+.section1-img {
+    padding-top: 2%;
+    text-align: center;
+}
+.section1-img img {
+    width: 70%;
+    border: 3px solid black;
+    border-radius: 5px;
+    margin-bottom: 0.2rem;
+}
+
+/* Section 2 */
+.section2 {
+    background-color: #222;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    height: 36rem;
+}
+.section2-text {
+    color: azure;
+    text-align: center;
+    margin-bottom: -1rem;
+}
+.section2-text h2 {
+    padding-bottom: 1rem;
+    font-size: 2.5rem;
+    text-decoration: underline;
+}
+.section2-text p {
+    font-size: 1.25rem;
+}
+
+/* Section 3 */
+.section3 {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    height: 24rem;
+    background-image: url(imgs/abstractBW20.png);
+    background-repeat: no-repeat;
+}
+.section3-text {
+    color: #222;
+    text-align: center;
+}
+.section3-text h2 {
+    padding-bottom: 1rem;
+    font-size: 2.5rem;
+    text-decoration: underline;
+}
+.section3-text p {
+    font-size: 1.25rem;
+}
+.section3-imgs img {
+    width: 32%;
+    height: 6rem;
+    border: 3px solid black;
+    border-radius: 5px;
+    margin-bottom: 0.2rem;
+}
+
+/* Social Media */
+.connect {
+    background-color: #222;
+    height: 10rem;
+}
+.connect h5 {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    color: azure;
+    text-decoration: underline;
+    font-style: italic;
+    font-size: 1rem;
+}
+.social {
+    padding-bottom: 1.5rem;
+}
+.social a {
+    font-size: 2.25rem;
+    padding: 1rem;
+}
+.fa-facebook-square {
+    color: #3b5998;
+}
+.fa-github-square {
+    color: azure;
+}
+.fa-instagram {
+    color: #e95950;
+}
+.fa-linkedin {
+    color: #007bb5;
+}
+.fa-snapchat-square {
+    color: #fffc00;
+}
+
+/* General CSS*/
+.black-bottom {
+    border-bottom: 0.075rem solid black;
+}
+.black-border {
+    border: 3px solid black;
+    border-radius: 5px;
+    margin-bottom: 0.2rem;
+}
+.clear {
+    clear:both;
+}
+.center-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Media Queries */
+/* Tablet */
+@media screen and (min-width:640px) {
+    /* Main Image */
+    .main-image-text {
+        top: 5%;
+    }
+    .main-image-text h1 {
+        font-size: 7rem;
+    }
+    .main-image-text h3 {
+        font-size: 3rem;
+    }
+    /* Section 1 */
+    .section1 {
+        padding-top: 5%;
+        padding-bottom: 10%;
+        height: 36rem;
+    }
+    .section1-text {
+        text-align: center;
+    }
+    .section1-text h1 {
+        font-size: 4rem;
+        text-decoration: underline;
+        font-style: italic;
+    }
+    .section1-text p {
+        font-size: 2rem;
+        width: 45%;
+        padding-top: 2%;
+        float: left;
+    }
+    .section1-img {
+        position: relative;
+        float: left;
+        width: 45%;
+        padding-top: 2%;
+        padding-bottom: 0%;
+        margin-left: 10%;
+    }
+    .section1-img img {
+        width: 100%;
+        border: 3px solid black;
+        border-radius: 5px;
+        margin-bottom: 0.2rem;
+    }
+    /* Section 2 */
+    .section2 {
+        padding-top: 5%;
+        height: 42rem;
+    }
+    .section2-text h2 {
+        font-size: 4rem;
+    }
+    .section2-text p {
+        font-size: 1.75rem;
+    }
+    /* Section 3 */
+    .section3 {
+        padding-top: 5%;
+        height: 34rem;
+    }
+    .section3-text h2 {
+        font-size: 4rem;
+    }
+    .section3-text p {
+        font-size: 1.75rem;
+    }
+    .section3-imgs img {
+        width: 32%;
+        height: 10rem;
+    }
+    /* Social Media */
+    .connect {
+        height: 16rem;
+    }
+    .connect h5 {
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+        font-size: 1.75rem;
+    }
+    .social {
+        padding-bottom: 1.5rem;
+    }
+    .social a {
+        font-size: 3.5rem;
+        padding: 2rem;
+    }
+}
+/* Laptop */
+@media screen and (min-width:769px) {
+     /* Nav Bar */
+     #projects-button {
+        padding-right: 4rem;
+    }
+    #portfolio-button {
+        padding-right: 25rem;
+    }
+    /* Section 1 */
+    .section1 {
+        height: 36rem;
+    }
+    .section1-text h1 {
+        font-size: 4.5rem;
+    }
+    .section1-img {
+        width: 30%;
+    }
+    /* Section 2 */
+    .section2 {
+        height: 38rem;
+    }
+    .section2-text h2 {
+        font-size: 4.5rem;
+    }
+    .section2-text p {
+        font-size: 2rem;
+    }
+    /* Section 3 */
+    .section3 {
+        height: 36rem;
+    }
+    .section3-text h2 {
+        font-size: 4.5rem;
+    }
+    .section3-text p {
+        font-size: 2rem;
+    }
+    .section3-imgs img {
+        height: 14rem;
+    }
+    /* Social Media */
+    .connect {
+        height: 16rem;
+    }
+    .connect h5 {
+        padding-top: 2.5rem;
+        padding-bottom: 1rem;
+        font-size: 2rem;
+    }
+    .social {
+        padding-bottom: 1.5rem;
+    }
+    .social a {
+        font-size: 4rem;
+        padding: 2rem;
+    }
+}
+/* Large Screen */
+@media screen and (min-width:1300px) {
+    /* Nav Bar */
+    #projects-button {
+        padding-right: 4rem;
+    }
+    #portfolio-button {
+        padding-right: 45rem;
+    }
+    /* Main Section */
+    .main-image-container {
+        background-size: 100%;
+        height: 60rem;
+    }
+    .main-image-text h1 {
+        font-size: 10rem;
+    }
+    .main-image-text h3 {
+        font-size: 4rem;
+    }
+    /* Section 1 */
+    .section1 {
+        height: 48rem;
+        background-size: 100%;
+    }
+    .section1-text h1 {
+        font-size: 5rem;
+    }
+    .section1-text p {
+        font-size: 2.5rem;
+    }
+    .section1-img {
+        width: 25%;
+    }
+    /* Section 2 */
+    .section2 {
+        height: 42rem;
+    }
+    .section2-text h2 {
+        font-size: 5rem;
+    }
+    .section2-text p {
+        font-size: 2.5rem;
+    }
+    /* Section 3 */
+    .section3 {
+        height: 48rem;
+        background-size: 100%;
+    }
+    .section3-text h2 {
+        font-size: 5rem;
+    }
+    .section3-text p {
+        font-size: 2.5rem;
+    }
+    .section3-imgs img {
+        height: 22rem;
+    }
+    /* Social Media */
+    .connect h5 {
+        font-size: 2.5rem;
+    }
+    .social a {
+        font-size: 4.5rem;
+    }
+}

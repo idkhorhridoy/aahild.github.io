@@ -189,7 +189,7 @@ a {
 
     /* Social Media */
     .connect {
-        height: 14rem;
+        height: 16rem;
     }
     .connect h5 {
         padding-top: 2rem;
@@ -200,8 +200,8 @@ a {
         padding-bottom: 1.5rem;
     }
     .social a {
-        font-size: 4rem;
-        padding: 2.5rem;  
+        font-size: 3.5rem;
+        padding: 2rem;  
     }
 
     .center-img {
@@ -217,7 +217,7 @@ a {
         padding-right: 4rem;
     }
     #portfolio-button {
-        padding-right: 22rem;
+        padding-right: 25rem;
     }
 
      /* Main Section */
@@ -257,19 +257,19 @@ a {
     
     /* Social Media */
     .connect {
-        height: 14rem;
+        height: 16rem;
     }
     .connect h5 {
-        padding-top: 2rem;
+        padding-top: 2.5rem;
         padding-bottom: 1rem;
-        font-size: 1.75rem;
+        font-size: 2rem;
     }
     .social {
         padding-bottom: 1.5rem;
     }
     .social a {
         font-size: 4rem;
-        padding: 2.5rem;  
+        padding: 2rem;  
     }
     
 
@@ -294,7 +294,7 @@ a {
         padding-right: 4rem;
     }
     #portfolio-button {
-        padding-right: 22rem;
+        padding-right: 45rem;
     }
 
      /* Main Section */
@@ -333,22 +333,12 @@ a {
     }
     
     /* Social Media */
-    .connect {
-        height: 14rem;
-    }
     .connect h5 {
-        padding-top: 2rem;
-        padding-bottom: 1rem;
-        font-size: 1.75rem;
-    }
-    .social {
-        padding-bottom: 1.5rem;
+        font-size: 2.5rem;
     }
     .social a {
-        font-size: 4rem;
-        padding: 2.5rem;  
-    }
-    
+        font-size: 4.5rem;
+    }   
 
     /*General CSS*/
     .center-img {
